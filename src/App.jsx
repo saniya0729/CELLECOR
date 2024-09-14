@@ -1,8 +1,16 @@
 import React from 'react';
+import "./app.css"
+import Head from './components/Head';
+import Navbar from './components/Navbar';
+
+
 
 const App = () => {
   return (
-    <div>App</div>
+    <>
+    <Head/>
+    <Navbar/>
+    </>
   )
 }
 
