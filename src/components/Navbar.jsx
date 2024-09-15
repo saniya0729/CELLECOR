@@ -30,7 +30,7 @@ const Navbar = () => {
             <a href="#" className="anime">
               SHOP BY CATEGORY
             </a>
-            <div className="absolute hidden group-hover:block w-48">
+            <div className="absolute hidden group-hover:block w-48 bg-white z-10">
               <ul>
                 <li className="m-2 py-2 border-b border-gray-300">
                   <a href="#" className="anime">
@@ -55,7 +55,7 @@ const Navbar = () => {
             <a href="#" className="anime">
               SUPPORT & WARRANTY
             </a>
-            <div className="absolute hidden group-hover:block w-48">
+            <div className="absolute hidden group-hover:block w-48 bg-white z-10">
               <ul>
                 <li className="m-2 py-2 border-b border-gray-300">
                   <a href="#" className="anime">
@@ -80,7 +80,7 @@ const Navbar = () => {
             <a href="#" className="anime">
               COMPANY
             </a>
-            <div className="absolute hidden group-hover:block w-48">
+            <div className="absolute hidden group-hover:block w-48 bg-white z-10">
               <ul>
                 <li className="m-2 py-2 border-b border-gray-300">
                   <a href="#" className="anime">
@@ -132,7 +132,7 @@ const Navbar = () => {
 
       {/* hamburger */}
       <div
-        className={`xl:hidden bg-white absolute top-0 left-0 w-80 h-[100vh]transform ${
+        className={`xl:hidden bg-white absolute top-0 left-0 w-80 z-10 h-[100vh] transform ${
           isMenuOpen ? "translate-x-0" : "-translate-x-full"
         } transition-transform  ease-in-out`}
       >
@@ -206,13 +206,13 @@ const Navbar = () => {
         
         {activeMenu === "shop" && (
           <div>
-            <div className="flex p-3 gap-20 bg-[#f8f8f8]">
+            <div className="flex p-3 gap-20 bg-[#f8f8f8] ">
               <button className="" onClick={handleBackClick}>
                 <i className="fa-solid fa-arrow-left"></i>
               </button>
               <p>SHOP BY CATEGORY</p>
             </div>
-            <ul className="flex flex-col ">
+            <ul className="flex flex-col h-[100vh]">
               <li className="border-b p-3">
                 <a href="#">Smart TV</a>
               </li>
@@ -235,7 +235,7 @@ const Navbar = () => {
               </button>
               <p>SUPPORT & WARRANTY</p>
             </div>
-            <ul className="flex flex-col">
+            <ul className="flex flex-col h-[100vh]">
               <li className="border-b p-3">
                 <a href="#">Services Centers</a>
               </li>
@@ -264,7 +264,7 @@ const Navbar = () => {
               </button>
               <p>SHOP BY CATEGORY</p>
             </div>
-            <ul className="flex flex-col">
+            <ul className="flex flex-col h-[100vh]">
               <li className="border-b p-3">
                 <a href="#">About Us</a>
               </li>
