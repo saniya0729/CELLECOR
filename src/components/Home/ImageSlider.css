@@ -1,0 +1,25 @@
+.slider-images{
+    max-width: 800px;
+    border-radius: 3.5rem;
+}
+.slider-heading{
+    font-weight: 700;
+    font-size: 2rem;
+   
+}
+.category-names{
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-align: center;
+    max-width: fit-content;
+    justify-content: center;
+    display: flex;
+    margin: auto ;
+}
+.category-names:hover{
+    color:rgb(140,170,198);
+    border-bottom: 1px solid rgb(140,170,198);
+}
+.category-Id{
+    padding:0.9rem;
+}
