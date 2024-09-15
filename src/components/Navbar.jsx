@@ -72,6 +72,16 @@ const Navbar = () => {
                     Privacy Policy
                   </a>
                 </li>
+                <li className="m-2 py-2">
+                  <a href="#" className="anime">
+                    Return Policy
+                  </a>
+                </li>
+                <li className="m-2 py-2">
+                  <a href="#" className="anime">
+                    Terms & Conditions
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
