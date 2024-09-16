@@ -129,7 +129,7 @@ function Footer() {
           />
           <img
             src="/Images/american-express.png"
-            alt="american-express"
+            alt="american express"
           />
           <img
             src="/Images/apple-pay.png"

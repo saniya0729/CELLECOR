@@ -14,7 +14,6 @@ footer .container {
   max-width: 1920px;
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-evenly; */
   justify-content: center;
   margin-left: 2rem;
   margin-right: 2rem;

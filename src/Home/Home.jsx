@@ -1,27 +1,26 @@
-import React from 'react'
-import video from "../assets/video.mp4"
-import Head from "./Head"
-import Navbar from "../components/Navbar"
-import ImageSlider from './ImageSlider'
-import Footer from './Footer'
+import React from "react";
+import video from "../assets/video.mp4";
+import Head from "./Head";
+import Navbar from "../components/Navbar";
+import ImageSlider from "./ImageSlider";
+import Footer from "./Footer";
 
 const Home = () => {
   return (
     <>
-      <Head/>
-      <Navbar/>
-      
+      <Head />
+      <Navbar />
+
       <div>
         <video autoPlay loop muted>
-          <source src={video} type="video/mp4"/>
+          <source src={video} type="video/mp4" />
         </video>
       </div>
-
-          <ImageSlider/>
-          <Footer/>
-
+      
+      <ImageSlider />
+      <Footer />
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
