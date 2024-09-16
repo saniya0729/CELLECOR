@@ -1,12 +1,10 @@
 import React from "react";
-
 // import ApplePay from "../../public/images/apple-pay.png"
-import { BiLogoInstagramAlt } from "react-icons/bi";
 import { BiLogoFacebook } from "react-icons/bi";
 import { AiFillYoutube } from "react-icons/ai";
+import { BiLogoInstagramAlt } from "react-icons/bi";
 import { GrTwitter } from "react-icons/gr";
-import { FaCcApplePay } from "react-icons/fa";
-import { FaCcVisa } from "react-icons/fa";
+
 import "./Footer.css";
 function FooterSection() {
   return (
@@ -100,7 +98,7 @@ function FooterSection() {
 
           <div className="social-icons ">
             <a href="#">
-              <BiLogoFacebook />
+            <BiLogoFacebook />
             </a>
             <a href="#">
               <BiLogoInstagramAlt />
@@ -119,15 +117,27 @@ function FooterSection() {
         <p>Copyright 2023 Cellecor All Rights Reserved</p>
         <div className="payment-methods">
           <img
-            src="https://img.icons8.com/color/48/000000/visa.png"
+            src="/Images/visa.png"
             alt="Visa"
           />
           <img
-            src="https://img.icons8.com/color/48/000000/mastercard-logo.png"
+            src="/Images/mastercard.png"
             alt="Mastercard"
           />
           <img
-            src="https://img.icons8.com/color/48/000000/paypal.png"
+            src="/Images/paypal.png"
+            alt="PayPal"
+          />
+          <img
+            src="/Images/american-express.png"
+            alt="PayPal"
+          />
+          <img
+            src="/Images/apply-pay.png"
+            alt="PayPal"
+          />
+          <img
+            src="/Images/google-pay.png"
             alt="PayPal"
           />
         </div>
